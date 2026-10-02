@@ -16,13 +16,15 @@ public class Mantenimiento {
     private String fecha;
     private String tipoMantenimiento;
     private String estado;
+    private double costo;
 
-    public Mantenimiento(String equipo, String tecnico, String fecha, String tipoMantenimiento, String estado) {
+    public Mantenimiento(String equipo, String tecnico, String fecha, String tipoMantenimiento, String estado, double costo) {
         this.equipo = equipo;
         this.tecnico = tecnico;
         this.fecha = fecha;
         this.tipoMantenimiento = tipoMantenimiento;
         this.estado = estado;
+        this.costo = costo;
         
     }
     
@@ -40,5 +42,7 @@ public class Mantenimiento {
 
     public String getEstado() { return estado; }
     public void setEstado(String estado) { this.estado = estado; }
+    
+    public double getCosto() { return costo; }
     
 }
