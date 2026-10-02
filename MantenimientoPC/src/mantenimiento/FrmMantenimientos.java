@@ -4,8 +4,8 @@ package mantenimiento;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-import usuarioo.FrmLogin;
-import usuarioo.Usuarioo.Usuario;
+import usuario.FrmLogin;
+import usuario.Usuarioo.Usuario;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license

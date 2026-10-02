@@ -1,10 +1,10 @@
-package usuarioo;
+package usuario;
 
 import java.awt.HeadlessException;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import mantenimiento.FrmMantenimientos;
-import usuarioo.Usuarioo.Usuario;
+import usuario.Usuarioo.Usuario;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
